@@ -59,7 +59,7 @@ public class Experimento1 extends AppCompatActivity {
         n.vibrate = new long[]{150,300,150,600}; //manda vibrar com 150ms de pausa, 300ms de vibação, 150ms de pausa, e 600ms de vibração
 
         //manda notificar
-        nm.notify(R.drawable.ic_sim_card_alert_white_18dp, n);
+        nm.notify(1, n);
 
         //obtém o Uri do RingTone (do tipo Notificações) e faz ele tocar
         Uri som = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION); //obtém o Uri padrão do toque de notificações

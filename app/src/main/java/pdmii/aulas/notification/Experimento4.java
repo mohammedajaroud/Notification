@@ -42,7 +42,7 @@ public class Experimento4 extends AppCompatActivity {
         buider.setSmallIcon(R.drawable.ic_sim_card_alert_black_18dp);
         buider.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_sim_card_alert_black_48dp));
         buider.setContentIntent(p); //indica qual é a intenção da Notificação (ao clicar na Notificação esta intenção é envia ao SO)
-        buider.setAutoCancel(true);
+
         //customização para Notificação com Ações
         buider.addAction(R.drawable.ic_acao_play,"Play",p);
         buider.addAction(R.drawable.ic_acao_stop,"Stop",p);
@@ -61,7 +61,7 @@ public class Experimento4 extends AppCompatActivity {
         n.flags = Notification.FLAG_AUTO_CANCEL; //indica que a Notificação será autocancelada ao clicá-la
 
         //manda notificar
-        nm.notify(R.drawable.ic_sim_card_alert_white_18dp, n);
+        nm.notify(1, n);
 
         //obtém o Uri do RingTone (do tipo Notificações) e faz ele tocar
         Uri som = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION); //obtém o Uri padrão do toque de notificações

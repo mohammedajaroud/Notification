@@ -22,7 +22,7 @@ public class Atividade2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE); //obtém o gerenciador de Notificações
-                nm.cancel(R.drawable.ic_sim_card_alert_white_18dp); //manda cancelar a Notificação a partir do id dela
+                nm.cancel(1); //manda cancelar a Notificação a partir do id dela
             }
         });
 
