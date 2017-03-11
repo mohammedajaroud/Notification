@@ -1,0 +1,31 @@
+<resources>
+    <!-- Título da app -->
+    <string name="app_name">Notifications</string>
+
+    <!-- Títulos da janelas -->
+    <string name="title_main">Notification: Experimentos</string>
+    <string name="title_experimento1">Experimento 1</string>
+    <string name="title_experimento2">Experimento 2</string>
+    <string name="title_experimento3">Experimento 3</string>
+    <string name="title_experimento4">Experimento 4</string>
+    <string name="title_activity_atividade2">Atividade2</string>
+
+    <!-- Textos para a janela activity_main -->
+    <string name="bt_experimento1">Experimento 1</string>
+
+    <!-- Textos para a (s) Notification (s) -->
+    <string name="ticker_notificacao">Texto do Ticker</string>
+    <string name="titulo_notificacao">Título da Notificação</string>
+    <string name="tv_testeNotification">Clique no botão para gerar uma Notification Android 5.- .</string>
+    <string name="tv_testeNotification_heads_up">Clique no botão para gerar uma Notification Heads-Up.</string>
+    <string name="tv_testeNotification_tela_de_bloqueio">Clique no botão para gerar uma Notification na Tela de Bloqueio.</string>
+    <string name="tv_testeNotification_com_acoes">Clique no botão para gerar uma Notification com Ações.</string>
+    <string name="tv_Atividade2">Activity de Resposta ao evento onClick da Notificação.</string>
+    <string name="bt_experimento2">Experimento 2</string>
+    <string name="bt_experimento3">Experimento 3</string>
+    <string name="bt_experimento4">Experimento 4</string>
+    <string name="bt_cancelar_notificacao">Cancelar Notificação</string>
+    <string name="bt_cancelar_todas_notificacoes">Cancelar Todas</string>
+    <string name="bt_experimento5">Experimento 5</string>
+
+</resources>
